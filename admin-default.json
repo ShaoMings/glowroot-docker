@@ -1,0 +1,76 @@
+{
+  "users": [
+    {
+      "username": "anonymous",
+      "roles": [
+        "Administrator"
+      ]
+    },
+    {
+      "username": "benshan.cao",
+      "passwordHash": "M2QnlE9TZ6IccPTzJCFb1A:TtIz03FTPXTUVxZj668FtA:500000",
+      "roles": [
+        "Administrator"
+      ]
+    },
+    {
+      "username": "huhu.shi",
+      "passwordHash": "Zx0mLAFI96v4HXCAnDhCug:z1zeeOcZEmUoAqfQKrYO6w:500000",
+      "roles": [
+        "Administrator"
+      ]
+    },
+    {
+      "username": "nan.yao",
+      "passwordHash": "0dS0Bv0MwhFrquX9YAXl9Q:4SXI2Vkg4Xz/Z+0tJlSgiw:500000",
+      "roles": [
+        "Administrator"
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "name": "Administrator",
+      "permissions": [
+        "admin",
+        "agent:*:config",
+        "agent:*:error",
+        "agent:*:incident",
+        "agent:*:jvm",
+        "agent:*:syntheticMonitor",
+        "agent:*:transaction"
+      ]
+    },
+    {
+      "name": "error",
+      "permissions": [
+        "agent:*:error"
+      ]
+    }
+  ],
+  "web": {
+    "sessionTimeoutMinutes": 300,
+    "sessionCookieName": "GLOWROOT_SESSION_ID"
+  },
+  "storage": {
+    "rollupExpirationHours": [
+      48,
+      336,
+      2160,
+      8760
+    ],
+    "queryAndServiceCallRollupExpirationHours": [
+      48,
+      168,
+      720,
+      720
+    ],
+    "profileRollupExpirationHours": [
+      48,
+      168,
+      720,
+      720
+    ],
+    "traceExpirationHours": 336
+  }
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="OceanBase-prd-arm" uuid="f9864485-78d6-447b-adf0-a31c173f711d">
+      <driver-ref>java.sql.Driver</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>com.alipay.oceanbase.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:oceanbase://172.21.194.88:2883/RBSCMFPRD?serverTimezone=CST</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="OceanBase-uat" uuid="94623329-af9f-43e3-b300-bc3633e84d94">
+      <driver-ref>java.sql.Driver</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>com.alipay.oceanbase.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:oceanbase://172.21.200.26:2883/RBSNEWPIT?characterEncoding=UTF-8</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="fssc-prd-glowroot" uuid="9dab1180-e91a-47b6-b21b-528626d23f66">
+      <driver-ref>cassandra</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.dbschema.CassandraJdbcDriver</jdbc-driver>
+      <jdbc-url>jdbc:cassandra://172.21.200.50:30073</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>

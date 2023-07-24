@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="glowroot-central">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/glowroot-central/glowroot-central.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
