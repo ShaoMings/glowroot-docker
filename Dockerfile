@@ -2,9 +2,8 @@ FROM artifactory.dep.devops.cmit.cloud:20101/tools/base-images/bclinux-8.2.2107:
 MAINTAINER huhu.shi@hand-china.com
 ADD glowroot-central /etc/glowroot-central
 ADD admin-default.json /etc/glowroot-central/
-ADD start.sh /
+ADD start-glowroot.sh /
 
-RUN rm -rf /etc/glowroot-central/glowroot-central.properties
 
 USER root
 

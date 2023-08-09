@@ -1,6 +1,8 @@
 FROM cassandra
 MAINTAINER huhu.shi@hand-china.com
 
+ADD start-cassandra.sh /
+
 USER root
 
 RUN sed -i 's/rpc_address: localhost/rpc_address: 0.0.0.0/g' /etc/cassandra/cassandra.yaml
