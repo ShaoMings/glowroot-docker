@@ -4,8 +4,6 @@ ADD glowroot-central /etc/glowroot-central
 ADD admin-default.json /etc/glowroot-central/
 ADD start.sh /
 
-RUN rm -rf /etc/glowroot-central/glowroot-central.properties
-
 
 USER root
 
