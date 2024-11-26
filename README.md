@@ -15,6 +15,10 @@ docker build -t glowroot-cassandra:vx.x -f Dockerfile-cassandra .
 
 ```
 
+```angular2html
+登录账号信息：yunwei/yJ4gZ2bP8mL3kG5v
+```
+
 #### 参与贡献
 
 1.  Fork 本仓库

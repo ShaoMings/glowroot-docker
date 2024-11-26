@@ -1,44 +1,8 @@
 {
   "users": [
     {
-      "username": "benshan.cao",
-      "passwordHash": "M2QnlE9TZ6IccPTzJCFb1A:TtIz03FTPXTUVxZj668FtA:500000",
-      "roles": [
-        "Administrator"
-      ]
-    },
-    {
-      "username": "huhu.shi",
-      "passwordHash": "Zx0mLAFI96v4HXCAnDhCug:z1zeeOcZEmUoAqfQKrYO6w:500000",
-      "roles": [
-        "Administrator"
-      ]
-    },
-    {
-      "username": "lujinyi",
-      "passwordHash": "Ckxn6khKpUU2vjDunPl8BQ:X339IHiJrMNiHXUikY71zw:500000",
-      "roles": [
-        "Administrator",
-        "error"
-      ]
-    },
-    {
       "username": "yunwei",
       "passwordHash": "DWKhp6C/BcmoOrZQzyrIog:mUe3+6pL9JJoJhX7wxn+Sg:500000",
-      "roles": [
-        "Administrator"
-      ]
-    },
-    {
-      "username": "nan.yao",
-      "passwordHash": "0dS0Bv0MwhFrquX9YAXl9Q:4SXI2Vkg4Xz/Z+0tJlSgiw:500000",
-      "roles": [
-        "Administrator"
-      ]
-    },
-    {
-      "username": "dangtuangonghui",
-      "passwordHash": "z9fARx5hhQuXwYtdbZLTdA:S8aAmhaAO0BwYj7ZBbwoYg:500000",
       "roles": [
         "Administrator"
       ]
