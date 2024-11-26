@@ -4,7 +4,7 @@
 #### 使用说明
 
 ```bash
-git clone https://gitee.com/huhu234/glowroot-central.git
+git clone https://github.com/ShaoMings/glowroot-docker.git
 cd glowroot-central
 # glowroot 和数据库 cassandra 不分离
 docker build -t glowroot-central-all-in-one:vx.x -f Dockerfile-hap-all-in-one .
